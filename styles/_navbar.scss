@@ -1,0 +1,12 @@
+@import './globalColors';
+
+.navbar-link {
+  width: 8rem;
+  color: $charcoal;
+  font-weight: 500;
+  &:hover {
+    color: $sunglow;
+    transition: all .2s ease;
+    font-weight: 700;
+  }
+}
