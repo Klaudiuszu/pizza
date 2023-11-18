@@ -19,6 +19,12 @@
   transition: 0.2s ease;
   color: $sunglow;
 }
+.p-sidebar-content {
+
+  .navbar-link {
+      transition: 0.2s ease; 
+  }
+}
 .p-sidebar-header {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
