@@ -7,6 +7,7 @@
 .navbar-link {
   position: relative;
   width: 8rem;
+  height: 100%;
   color: $charcoal;
   font-weight: 500;
   overflow: hidden;
@@ -23,7 +24,7 @@
   position: absolute;
   width: 0;
   height: 1px;
-  bottom: 0;
+  bottom: 0.1px;
   background-color: $charcoal;
   transition: width 0.4s ease, left 0.4s ease; 
 }

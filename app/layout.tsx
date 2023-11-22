@@ -4,6 +4,7 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import '../styles/all.scss';
+import HeroInfo from '@/components/HeroInfo'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,7 +25,8 @@ export default function RootLayout({
         <main className='relative overflow-hidden'>
           {children}
         </main>
-        <Footer />
+        <HeroInfo />
+        {/* <Footer /> */}
       </body>
     </html>
   )
